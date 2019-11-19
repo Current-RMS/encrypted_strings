@@ -7,7 +7,7 @@ module EncryptedStrings
     def can_decrypt?
       true
     end
-    
+
     # Attempts to decrypt the given data using the current configuration.  By
     # default, decryption is not implemented.
     def decrypt(data)
